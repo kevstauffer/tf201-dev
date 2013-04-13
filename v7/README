@@ -1,0 +1,6 @@
+root_patches unchanged
+root_chooser unchanged
+kernel_chooser: interface overhaul (add framebuffer support)
+kernel: removed CONFIG_LOGO
+
+program behavior and files syntax are unchanged.

@@ -1,0 +1,11 @@
+Reboot to recovery and flash kernel_chooser-v6.zip
+
+or
+
+	nvlfash -r --download 6 nvflash.LNX
+
+or
+
+	fastboot -i 0x0b05 flash boot fastboot.blob
+
+Note: Make sure you have a configuration created before installing.
