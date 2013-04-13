@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: sQay4xk30fBc1bldLglowVhlJyk=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: B5MXuQ4KW48udfnParr8/YhcDrc=
+
+Name: boot.blob
+SHA1-Digest: tv/DLxLMABEhX7WwmUITLM8WGkA=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 0vp3V64tddU8XQwVRNd+5y8orwU=
+

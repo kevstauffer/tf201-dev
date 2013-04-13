@@ -1,0 +1,17 @@
+assert(getprop("ro.product.device") == "tf201" || getprop("ro.build.product") == "tf201");
+ui_print("Unmounting staging partition");
+unmount("/staging");
+show_progress(0.1, 1);
+ui_print("Flashing the blob");
+show_progress(0.9, 10);
+package_extract_file("kernel.blob", "/dev/block/mmcblk0p4");
+ui_print(" ");
+ui_print("Kernel_Chooser v6 has been installed.");
+ui_print("Make sure you have a configuration created in /data/.kernel.d");
+ui_print("If any errors occur, reboot to recovery/fastboot/nvflash and install a different kernel to boot android.");
+ui_print("Support is available on freenode IRC, email, XDA, github, etc.");
+ui_print(" ");
+ui_print("Reboot to see the magic!");
+ui_print("Enjoy dual booting android and linux");
+ui_print(" - Massimio Dragano & Smasher816");
+ui_print(" ");
