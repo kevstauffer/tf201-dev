@@ -1,3 +1,6 @@
+Created kernel_chooser-v7.zip.
+* Simply flash this zip in recovery, it will create an android configuration if needed.
+
 root_patches unchanged
 root_chooser unchanged
 kernel_chooser: interface overhaul (add framebuffer support)
